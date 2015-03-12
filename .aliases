@@ -1,3 +1,6 @@
+# deonvdv custom aliases
+alias jump=ssh root@jump.lmlbot.com
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
