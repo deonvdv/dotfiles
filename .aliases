@@ -1,5 +1,6 @@
 # deonvdv custom aliases
 alias jump="ssh root@jump.lmlbot.com"
+alias pu="vendor/phpunit/phpunit/phpunit"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
