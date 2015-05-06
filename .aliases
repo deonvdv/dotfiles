@@ -2,6 +2,7 @@
 alias jump="ssh root@jump.lmlbot.com"
 alias pu="vendor/phpunit/phpunit/phpunit"
 alias artisan="php artisan"
+alias dump="php artisan dump-autoload"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
