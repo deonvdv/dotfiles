@@ -4,6 +4,9 @@ alias pu='vendor/bin/phpunit'
 alias artisan="php artisan"
 alias dump="php artisan dump-autoload"
 
+# Update all submodules
+alias upsub="git submodule foreach git pull origin master"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
