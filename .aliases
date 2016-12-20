@@ -3,9 +3,12 @@ alias jump="ssh root@jump.lmlbot.com"
 alias pu='vendor/bin/phpunit'
 alias artisan="php artisan"
 alias dump="php artisan dump-autoload"
+alias kc="kubectl"
 
 # Update all submodules
 alias upsub="git submodule foreach git pull origin master"
+
+
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
