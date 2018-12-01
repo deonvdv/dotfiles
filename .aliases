@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # deonvdv custom aliases
-alias jump="ssh root@jump.lmlbot.com"
+# alias jump="ssh root@jump.lmlbot.com"
 alias pu='vendor/bin/phpunit'
 alias artisan="php artisan"
 alias dump="php artisan dump-autoload"
