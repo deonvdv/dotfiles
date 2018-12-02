@@ -98,5 +98,9 @@ brew install vbindiff
 brew install zopfli
 brew install node
 
+# Google + Kubernetes
+brew install kubectl
+brew install homebrew/cask/google-cloud-sdk
+
 # Remove outdated versions from the cellar.
 brew cleanup
