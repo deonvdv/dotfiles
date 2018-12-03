@@ -105,5 +105,8 @@ brew install homebrew/cask/google-cloud-sdk
 # Git Flow
 brew install git-flow-avh
 
+# MySQL
+brew install mysql
+
 # Remove outdated versions from the cellar.
 brew cleanup
