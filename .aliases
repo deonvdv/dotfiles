@@ -6,6 +6,7 @@ alias pu='vendor/bin/phpunit'
 alias artisan="php artisan"
 alias dump="php artisan dump-autoload"
 alias kc="kubectl"
+alias pt="vendor/bin/paratest -p4"
 
 # Update all submodules
 alias upsub="git submodule foreach git pull origin master"
