@@ -12,6 +12,7 @@ alias pt="vendor/bin/paratest -p4"
 alias upsub="git submodule foreach git pull origin master"
 
 # GIT
+alias g="git"
 alias push="git push"
 alias pull="git pull"
 
@@ -27,8 +28,7 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
-alias g="git"
+alias p="cd ~/Projects"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
