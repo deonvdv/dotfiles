@@ -16,6 +16,11 @@ alias upsub="git submodule foreach git pull origin master"
 alias g="git"
 alias push="git push"
 alias pull="git pull"
+alias gcd="git checkout dev"
+alias gcc="git checkout -b"
+alias ga="git add . && git s"
+alias gacz="ga && git cz"
+alias gitprune="git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
