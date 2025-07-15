@@ -8,6 +8,8 @@ alias dump="php artisan dump-autoload"
 alias kc="kubectl"
 alias pt="vendor/bin/paratest -p4"
 alias code="open -a Visual\ Studio\ Code.app"
+alias at="php artisan test"
+alias serve="php artisan serve"
 
 # Update all submodules
 alias upsub="git submodule foreach git pull origin master"
@@ -15,7 +17,7 @@ alias upsub="git submodule foreach git pull origin master"
 # GIT
 alias g="git"
 alias push="git push"
-alias pull="git pull"
+alias pull="git pull --rebase"
 alias gcd="git checkout dev"
 alias gcc="git checkout -b"
 alias ga="git add . && git s"
@@ -122,6 +124,9 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# make a uuid using nodejs
+alias uuid="node -e 'const crypto = require(\"crypto\");console.log(crypto.randomUUID());'"
 
 # URL-encode strings
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'

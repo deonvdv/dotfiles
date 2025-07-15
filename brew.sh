@@ -22,7 +22,7 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
-# Install Bash 4.
+# Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
 
@@ -44,8 +44,8 @@ brew install grep
 brew install openssh
 brew install screen
 brew install composer
-# brew install homebrew/php/php56 --with-gmp
-brew install php@7.2
+brew install php
+brew install gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -84,6 +84,7 @@ brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
+brew install gs
 # brew install imagemagick --with-webp
 brew install lua
 brew install lynx
@@ -100,13 +101,12 @@ brew install node
 
 # Google + Kubernetes
 brew install kubectl
-brew install homebrew/cask/google-cloud-sdk
-
+brew install google-cloud-sdk
 # Git Flow
 brew install git-flow-avh
 
-# MySQL
-brew install mysql
+
+brew install asdf
 
 # Remove outdated versions from the cellar.
 brew cleanup
