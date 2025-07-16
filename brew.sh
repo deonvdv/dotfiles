@@ -112,5 +112,8 @@ brew install asdf
 # Warp
 brew install --cask warp
 
+# GO
+brew install go
+
 # Remove outdated versions from the cellar.
 brew cleanup
