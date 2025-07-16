@@ -84,6 +84,7 @@ brew install composer
 # brew install ack
 # #brew install exiv2
 brew install git
+brew install gh
 # brew install git-lfs
 # brew install gs
 # # brew install imagemagick --with-webp
