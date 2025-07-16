@@ -37,7 +37,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
-# brew install gnupg
+brew install gnupg
 
 # Install more recent versions of some macOS tools.
 # brew install vim --with-override-system-vi
