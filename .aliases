@@ -10,15 +10,18 @@ alias pt="vendor/bin/paratest -p4"
 alias code="open -a Visual\ Studio\ Code.app"
 alias at="php artisan test"
 alias serve="php artisan serve"
+alias server="php artisan server:start"
 
 # Update all submodules
-alias upsub="git submodule foreach git pull origin master"
+# alias upsub="git submodule foreach git pull origin master"
 
 # GIT
 alias g="git"
 alias push="git push"
 alias pull="git pull --rebase"
 alias gcd="git checkout dev"
+alias gcm="git checkout main"
+alias ggo="git go"
 alias gcc="git checkout -b"
 alias ga="git add . && git s"
 alias gacz="ga && git cz"
@@ -33,7 +36,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"

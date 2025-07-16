@@ -109,5 +109,8 @@ brew install google-cloud-sdk
 brew install zsh
 brew install asdf
 
+# Warp
+brew install --cask warp
+
 # Remove outdated versions from the cellar.
 brew cleanup
